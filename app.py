@@ -6,9 +6,7 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 import pypdf
 from groq import Groq
 
-
+api = os.environ.get("")
 # client = Groq(
 #     api_key= os.environ.get("GROQ_API_KEY")
 # )
-
-print(groq_api)
