@@ -18,7 +18,7 @@ groq_api_key=os.getenv('GROQ_API_KEY')
 #Alternate groq_api_key = os.environ.get('GROQ_API_KEY)
 os.environ["GOOGLE_API_KEY"]=os.getenv("GOOGLE_API_KEY")
 
-smt.title("Gemma Model Document Q&A")
+smt.title("Document Q&A")
 
 llm=ChatGroq(groq_api_key=groq_api_key, model_name="Llama3-8b-8192")
 
