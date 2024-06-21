@@ -14,7 +14,7 @@ This Streamlit application allows users to ask questions about documents using t
 - Python 3.7+
 - Streamlit
 - LangChain
-- Groq
+- Groq (used LLaMa3-8b, can use others as well)
 - Google Generative AI
 - FAISS
 - PyPDF2
